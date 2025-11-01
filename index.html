@@ -74,7 +74,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>UrbanIng-V2X</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -346,11 +346,11 @@ Intersections for Cooperative Perception</h1>
   </iframe>
 </div>
       <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
+      <!-- <h2 class="subtitle has-text-centered">
         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
       </h2>
     </div>
-  </div>
+  </div> -->
 </section>
 <!-- End teaser video -->
 
@@ -363,7 +363,24 @@ Intersections for Cooperative Perception</h1>
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Recent cooperative perception datasets have played a crucial role in advancing
+smart mobility applications by enabling information exchange between intelligent agents, helping to overcome challenges such as occlusions and improving
+overall scene understanding. While some existing real-world datasets incorporate both vehicle-to-vehicle and vehicle-to-infrastructure interactions, they are
+typically limited to a single intersection or a single vehicle. A comprehensive
+perception dataset featuring multiple connected vehicles and infrastructure sensors
+across several intersections remains unavailable, limiting the benchmarking of
+algorithms in diverse traffic environments. Consequently, overfitting can occur,
+and models may demonstrate misleadingly high performance due to similar intersection layouts and traffic participant behavior. To address this gap, we introduce
+UrbanIng-V2X, the first large-scale, multi-modal dataset supporting cooperative
+perception involving vehicles and infrastructure sensors deployed across three
+urban intersections in Ingolstadt, Germany. UrbanIng-V2X consists of 34 temporally aligned and spatially calibrated sensor sequences, each lasting 20 seconds.
+All sequences contain recordings from one of three intersections, involving two
+vehicles and up to three infrastructure-mounted sensor poles operating in coordinated scenarios. In total, UrbanIng-V2X provides data from 12 vehicle-mounted
+RGB cameras, 2 vehicle LiDARs, 17 infrastructure thermal cameras, and 12 infrastructure LiDARs. All sequences are annotated at a frequency of 10 Hz with 3D
+bounding boxes spanning 13 object classes, resulting in approximately 712k annotated instances across the dataset. We provide comprehensive evaluations using
+state-of-the-art cooperative perception methods and publicly release the codebase,
+dataset, HD map, and a digital twin of the complete data collection environment
+via https://github.com/thi-ad/UrbanIng-V2X.
           </p>
         </div>
       </div>
