@@ -390,6 +390,49 @@ via https://github.com/thi-ad/UrbanIng-V2X.
 <!-- End paper abstract -->
 
 <!-- ========================= -->
+<!-- Table I -->
+<!-- ========================= -->
+
+<table border="1" cellspacing="0" cellpadding="6" style="width:100%; border-collapse:collapse; text-align:center; font-family:Arial, sans-serif; font-size:14px;">
+  <caption style="caption-side:top; font-weight:bold; text-align:left; padding:8px 0;">
+    Table 1: Comparison of real-world cooperative <b>V2X</b> datasets with the proposed UrbanIng-V2X dataset (I = Infrastructure, V = Vehicle). 
+    <br><small>†Images are not published yet.</small>
+  </caption>
+  <thead style="background-color:#f0f0f0;">
+    <tr>
+      <th>Property</th>
+      <th>V2V4Real [30]</th>
+      <th>DAIR-V2X-C [32]</th>
+      <th>V2X-Seq [33]</th>
+      <th>TUMTraf-V2X [36]</th>
+      <th>V2XReal [26]</th>
+      <th>UrbanIng-V2X (ours)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><b>Year</b></td><td>2022</td><td>2022</td><td>2023</td><td>2024</td><td>2024</td><td>2025</td></tr>
+    <tr><td><b>V2X</b></td><td>V2V</td><td>V2X</td><td>V2X</td><td>V2I</td><td>V2V&amp;I</td><td>V2V&amp;I</td></tr>
+    <tr><td><b>Intersections</b></td><td>0</td><td>28</td><td>1</td><td>1</td><td>1</td><td>3</td></tr>
+    <tr><td><b>Vehicles</b></td><td>2</td><td>1</td><td>2</td><td>1</td><td>2</td><td>2</td></tr>
+    <tr><td><b>RGB Images</b></td><td>40k†</td><td>39k</td><td>15k</td><td>5k</td><td>171k</td><td>81.6k</td></tr>
+    <tr><td><b>IR Images</b></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>38.8k</td></tr>
+    <tr><td><b>LiDAR Frames</b></td><td>40k</td><td>39k</td><td>10.45k</td><td>29k</td><td>33k</td><td>27k</td></tr>
+    <tr><td><b>3D Boxes</b></td><td>240k</td><td>464k</td><td>10.45k</td><td>29k</td><td>1.2M</td><td>712k</td></tr>
+    <tr><td><b>Classes</b></td><td>5</td><td>10</td><td>9</td><td>10</td><td>13</td><td>13</td></tr>
+    <tr><td><b>Digital Twin</b></td><td>No</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td><b>Av. worldwide</b></td><td>Yes</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td><b>HD Maps</b></td><td>Yes</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td><b>Attributes</b></td><td>No</td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td><b>Track IDs</b></td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td><b>Traffic Light</b></td><td>No</td><td>No</td><td>No</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td><b>Sensors (I | V)</b></td><td>0 | 18</td><td>2 | 13</td><td>2 | 13</td><td>5 | 14</td><td>8 | 12</td><td>10 | 16</td></tr>
+    <tr><td><b>City</b></td><td>Ohio</td><td>Beijing</td><td>Beijing</td><td>Munich</td><td>N.A.</td><td>Ingolstadt</td></tr>
+    <tr><td><b>Country</b></td><td>USA</td><td>China</td><td>China</td><td>Germany</td><td>N.A.</td><td>Germany</td></tr>
+  </tbody>
+</table>
+
+
+<!-- ========================= -->
 <!-- UrbanIng-V2X Dataset Info -->
 <!-- ========================= -->
 
